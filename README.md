@@ -25,27 +25,10 @@ CSS3: estilização, variáveis de cor, flexbox e media queries
 JavaScript: lógica do jogo e manipulação do DOM
 Google Fonts: fonte Montserrat (títulos em Times New Roman)
 
-🎨 Identidade visual
-Paleta em tons neutros de caramelo e branco gelo:
-
-Cor	                  Código
-Caramelo	            #B9803F
-Caramelo escuro	      #8F5E2A
-Marrom claro	        #D9B98C
-Gelo	                #F8F5F0
-Texto	                #4A3322
-
-📁 Estrutura do projeto:
-├── index.html
-├── style.css
-├── jogo.js
-└── img/
-    └── code.png
-
 🚀 Como executar:
 Baixe ou clone este repositório.
 Abra o arquivo index.html no navegador.
-     └── Se quiser rodar com um servidor local, dá para usar a extensão Live Server do VS Code.
+Se quiser rodar com um servidor local, dá para usar a extensão Live Server do VS Code.
 
 📚 O que este projeto pratica
    -Funções e chamadas de funções em JavaScript
