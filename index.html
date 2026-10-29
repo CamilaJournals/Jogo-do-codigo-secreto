@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="jogo.js" defer></script>
+    <title>Jogo do Código Secreto</title>
+</head>
+<body>
+    <main class="container">
+        <div class="container__informacoes">
+            <h1><span class="container__texto-destaque">Jogo do Código Secreto</span></h1>
+            <h2>Tente adivinhar o código secreto!</h2>
+            <p id="mensagem" class="texto__paragrafo">Descubra o código secreto!</p>
+
+            <input type="number" min="1" max="10" id="palpite" placeholder="Digite seu palpite (1-10)">
+
+            <div class="container__botoes">
+                <button onclick="verificarPalpite()">Enviar Palpite</button>
+                <button onclick="reiniciarJogo()">Novo Jogo</button>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
